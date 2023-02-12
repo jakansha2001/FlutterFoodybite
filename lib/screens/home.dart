@@ -57,7 +57,7 @@ class Home extends StatelessWidget {
             fontWeight: FontWeight.w800,
           ),
         ),
-        FlatButton(
+        TextButton(
           child: Text(
             "See all (9)",
             style: TextStyle(
@@ -90,7 +90,7 @@ class Home extends StatelessWidget {
             fontWeight: FontWeight.w800,
           ),
         ),
-        FlatButton(
+        TextButton(
           child: Text(
             "See all (9)",
             style: TextStyle(
