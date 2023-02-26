@@ -18,7 +18,8 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       title: Constants.appName,
       theme: ThemeData(
-        useMaterial3: false,
+        useMaterial3: true,
+        colorSchemeSeed: Colors.amber,
       ),
       //theme: Constants.lightTheme,
       //darkTheme: Constants.darkTheme,
